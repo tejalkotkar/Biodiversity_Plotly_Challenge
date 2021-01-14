@@ -1,4 +1,7 @@
 #sample-metadata {
-    font-weight: 900 !important;
-    /* overflow-wrap:break-word; */
+    overflow-wrap:break-word;
+}
+
+#meta_id {
+    font-weight: bold;
 }
