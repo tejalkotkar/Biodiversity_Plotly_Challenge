@@ -33,9 +33,7 @@ The final application can be reached at "https://tejalkotkar.github.io/Plotly_Ch
 
 **1) Demographics:**
     Each time the dropdown selection is updated, calls a function optionChanged which takes id as parameter and filters the metadata & samples for selected id.
-    
-    Which then calls three functions, one of them is to display demographic info:
-
+    optionChanged function calls three functions, one of them is to display demographic info:
     **getMetadata** : This function takes filtered metadata object as parameter & displays the demographic info about selected id.
 
     ![Demographics](Images/Demographic_Info.PNG)
