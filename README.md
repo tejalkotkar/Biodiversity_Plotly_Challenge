@@ -29,7 +29,7 @@ The final application can be reached at "https://tejalkotkar.github.io/Plotly_Ch
 
 **1) Default View:** 
    When the dashboard is loaded calls init() function, which loads the dropdown with all available ids & displays demographics & charts for the first id in the list which is 940. 
-   ![Dashboard](Images/Dashboard.png)
+   ![Dashboard](Images/Dashboard.PNG)
 
 **1) Demographics:**
     Each time the dropdown selection is updated, calls a function optionChanged which takes id as parameter and filters the metadata & samples for selected id.
@@ -38,7 +38,7 @@ The final application can be reached at "https://tejalkotkar.github.io/Plotly_Ch
 
     **getMetadata** : This function takes filtered metadata object as parameter & displays the demographic info about selected id.
 
-    ![Demographics](Images/Demographic_Info.png)
+    ![Demographics](Images/Demographic_Info.PNG)
 
 
 **2) Bar Graph:**
@@ -48,13 +48,13 @@ The final application can be reached at "https://tejalkotkar.github.io/Plotly_Ch
     Bar graph is pretty simple, it is a generic plotly horizontal bar chart.
     For Bar chart, have taken only the top 10 values and added lables as hover over text.
 
-    ![Bar Graph](Images/Bar_Graph.png)
+    ![Bar Graph](Images/Bar_Graph.PNG)
 
 **3) Bubble Chart:**
     The second part of the getPlot function displays the Bubble chart on the dashboard. The plot considers only two variables: otu_id and sample_values
     Used a generic bubble chart with not much manipulation.
     
-    ![Bubble Chart](Images/Bubble_chart.png)
+    ![Bubble Chart](Images/Bubble_chart.PNG)
 
 **4) Gauge Chart:**
     Another function that is invoked after the getMetadata & getPlot fucntion from an optionChanged function is, getGauge. Which takes only washingfrequency as a parameter.
