@@ -134,7 +134,7 @@ getGauge=(wfreq)=>{
               { range: [8, 9], color: "#85B48A" },
             ],
         }        
-    }
+    };
 
     //data
     var gauge_data = [gauge_trace];
