@@ -34,28 +34,24 @@ The final application can be reached at "https://tejalkotkar.github.io/Plotly_Ch
 **1) Demographics:**
     Each time the dropdown selection is updated, calls a function optionChanged which takes id as parameter and filters the metadata & samples for selected id.
     optionChanged function calls three functions, one of them is to display demographic info:
-    **getMetadata** : This function takes filtered metadata object as parameter & displays the demographic info about selected id.
-
+    #### **getMetadata** : This function takes filtered metadata object as parameter & displays the demographic info about selected id.
     ![Demographics](Images/Demographic_Info.PNG)
 
 
 **2) Bar Graph:**
     Another function that is invoked after the getMetadata fucntion from an optionChanged function is getPlot which takes filteres samples object for selected id.
-
     This function has two parts, one of it displays the Bar Graph:
     Bar graph is pretty simple, it is a generic plotly horizontal bar chart.
     For Bar chart, have taken only the top 10 values and added lables as hover over text.
-
-    ![Bar Graph](Images/Bar_Graph.PNG)
+    #### ![Bar Graph](Images/Bar_Graph.PNG)
 
 **3) Bubble Chart:**
     The second part of the getPlot function displays the Bubble chart on the dashboard. The plot considers only two variables: otu_id and sample_values
     Used a generic bubble chart with not much manipulation.
-    
-    ![Bubble Chart](Images/Bubble_chart.PNG)
+    #### ![Bubble Chart](Images/Bubble_chart.PNG)
 
 **4) Gauge Chart:**
     Another function that is invoked after the getMetadata & getPlot fucntion from an optionChanged function is, getGauge. Which takes only washingfrequency as a parameter.
-
     This chart needed little bit manipulation(additional parameters) than basic Gauge chart. Followed the single-page-reference for Indicator Trace.
     [Reference](https://plotly.com/javascript/reference/indicator/)
+    #### ![Gauge_Chart](Images/Gauge_Chart.PNG)
