@@ -5,7 +5,7 @@ In this project, I have built an interactive dashboard to explore the [Belly But
 The dataset reveals that a small handful of microbial species (also called operational taxonomic units, or OTUs, in the study) were present in more than 70% of people, while the rest were relatively rare.
 
 Project is deployed at :
-**Website Link** : https://tejalkotkar.github.io/Plotly_Challenge/Biodiversity
+[**Website Link**] : [https://tejalkotkar.github.io/Plotly_Challenge/Biodiversity](https://tejalkotkar.github.io/Plotly_Challenge/Biodiversity)
 
 #### Tools:
 This project is achieved by using HTML & Plotly in combination with D3 & javascript
