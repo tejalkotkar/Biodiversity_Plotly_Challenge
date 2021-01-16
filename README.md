@@ -23,7 +23,7 @@ Hulcr, J. et al.(2012) _A Jungle in There: Bacteria in Belly Buttons are Highly 
 * [Instructions](Instructions/Instructions.md)
 
 ### Details:
-The final application can be reached at "https://tejalkotkar.github.io/Plotly_Challenge/Biodiversity" which is hosted with the help of github pages.
+The final application can be reached at [https://tejalkotkar.github.io/Plotly_Challenge/Biodiversity](https://tejalkotkar.github.io/Plotly_Challenge/Biodiversity) which is hosted with the help of github pages.
 
 #### Dahboard elements & Technical Details:
 
